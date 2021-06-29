@@ -1,6 +1,5 @@
-Thanks for downloading this template!
+# Jugno's Salon
 
-Template Name: Sailor
-Template URL: https://bootstrapmade.com/sailor-free-bootstrap-theme/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+## Details
+
+This is a static website for a beauty salon.
