@@ -702,10 +702,10 @@ section {
 }
 
 .services .icon-box h4 {
-  margin-left: 70px;
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  text-align: center;
 }
 
 .services .icon-box h4 a {
@@ -714,7 +714,6 @@ section {
 }
 
 .services .icon-box p {
-  margin-left: 70px;
   line-height: 24px;
   font-size: 14px;
 }
@@ -1041,7 +1040,7 @@ section {
 }
 .style_bg_img{
   background-image: url(/assets/img/pixel_bg.jpg);
-  height: 447px;
+  min-height: 447px;
   background-size: contain;
   padding: 20px;
   border-radius: 20px;
@@ -1971,14 +1970,23 @@ color:#fff;
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #4a5562;
+  background: linear-gradient(45deg, #d9232d, #f7b100);
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
+  position: relative;
+}
+#footer:before{
+  content: "";
+  width: 100%;
+  height: 4px;
+  background:linear-gradient(45deg, #d9232d, #f7b100);
+  position: absolute;
+  top: 0;
 }
 
 #footer .footer-top {
-  background: #515d6a;
+  background: #fefefe;
   padding: 60px 0 30px 0;
 }
 
@@ -1992,6 +2000,7 @@ color:#fff;
   padding: 2px 0 2px 0;
   line-height: 1;
   font-weight: 700;
+  color: #1f1f1f;
 }
 
 #footer .footer-top .footer-info p {
@@ -1999,14 +2008,24 @@ color:#fff;
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: #f0900b;
 }
-
+#footer .footer-top .footer-info p strong{
+color: #f08f0b;
+}
+.service-card-img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 20px;
+  border-bottom: 5px solid #d9232d;
+  margin-bottom: 10px;
+}
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
   background: rgba(255, 255, 255, 0.1);
-  color: #fff;
+  color: #d9232d;
   line-height: 1;
   padding: 8px 0;
   margin-right: 4px;
@@ -2026,7 +2045,7 @@ color:#fff;
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: #1f1f1f;
   position: relative;
   padding-bottom: 12px;
 }
@@ -2059,14 +2078,14 @@ color:#fff;
 }
 
 #footer .footer-top .footer-links ul a {
-  color: rgba(255, 255, 255, 0.6);
+  color:#f0900b;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: white;
+  color:#000;
 }
 
 #footer .footer-top .footer-newsletter form {
