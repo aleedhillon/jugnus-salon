@@ -2018,7 +2018,7 @@ color: #f08f0b;
   height: 200px;
   object-fit: cover;
   border-radius: 20px;
-  border-bottom: 5px solid #d9232d;
+  /* border-bottom: 5px solid #d9232d; */
   margin-bottom: 10px;
 }
 #footer .footer-top .social-links a {
