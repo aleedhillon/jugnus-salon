@@ -8,6 +8,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -1528,6 +1530,7 @@ color:#fff;
 
 .blog .entry .entry-content p {
   line-height: 24px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .blog .entry .entry-content .read-more {
